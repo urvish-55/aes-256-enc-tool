@@ -33,15 +33,15 @@ This project is intended strictly for educational and authorized use only.
 
 ## Project Structure
 
-aes-256-enc-tool/
-├─ aes_encryption_tool.py   # Main launcher (menu)
-├─ encrypt.py               # Encryption logic
-├─ decrypt.py               # Decryption logic
-├─ keys/
-│   ├─ salt.bin             # Cryptographic salt
-│   └─ secret.key           # Derived encryption key (for demonstration)
-├─ enc_files/               # Encrypted output files
-└─ dec_files/               # Decrypted output files
+    aes-256-enc-tool/
+    ├─ aes_encryption_tool.py   # Main launcher (menu)
+    ├─ encrypt.py               # Encryption logic
+    ├─ decrypt.py               # Decryption logic
+    ├─ keys/
+    │   ├─ salt.bin             # Cryptographic salt
+    │   └─ secret.key           # Derived encryption key (for demonstration)
+    ├─ enc_files/               # Encrypted output files
+    └─ dec_files/               # Decrypted output files
 
 ---
 
